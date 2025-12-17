@@ -23,6 +23,8 @@ Trivia questions are sourced from the **Open Trivia Database (OpenTDB)** and sto
 ---
 
 ##  Project Structure
+```
+
 quiz-game-start/
 │
 ├── main.py
@@ -31,19 +33,23 @@ quiz-game-start/
 ├── quiz_brain.py
 └── README.md
 
-
+```
 ---
 
 ## Sample Output
-Q1: Is the sky blue? (True/False): True
-Correct!
+```
 
-Q2: Python is a snake only. (True/False): False
-Correct!
+Q.1 : Skateboarding was included in the 2020 Summer Olympics in Tokyo. (True/False): 1
+That's the wrong answer.
+Your score is: 0
+The correct answer was: True
+Your current score is: 0/1
 
-You have completed the quiz!
-Your final score is: 2/2
-
-
+Q.2 : Wilt Chamberlain scored his infamous 100-point-game against the New York Knicks in 1962. (True/False): True
+That's the correct answer!
+Your score is: 1
+The correct answer was: True
+Your current score is: 1/2
+```
 
 
